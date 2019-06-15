@@ -1,3 +1,4 @@
+
 ## Xamarin stuff
 Components
 [Pp]ackages
@@ -182,4 +183,6 @@ FakesAssemblies/
 
 *.userprefs
 
-.DS_Store
+.DS_Storec
+
+
