@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"  
+    xmlns:local="clr-namespace:FormsPoc;assembly:FormsPoc" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="FormsPoc.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+      <Label Text="Welcome to Xamarin.Forms!"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+       
+     <local:MarkingView  x:Name="drawingImage" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="White"  IsEnabled="false" StrokeWidth="3" StrokeColor="Black" />
+<!--        <Image x:Name="imageView" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />-->
+<!--         <Button Clicked="Handle_Clicked" Text="Change Image Size" HorizontalOptions="FillAndExpand" VerticalOptions="End" HeightRequest="50"  />-->
+<!--         <Button Clicked="AddPhotoClicked" Text="PIck Photo" HorizontalOptions="FillAndExpand" VerticalOptions="End" HeightRequest="50"  />-->
+    </StackLayout>
+</ContentPage>

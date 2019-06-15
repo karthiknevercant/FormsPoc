@@ -1,0 +1,335 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "ec32bc1a68bffd683606f358c6bfd9c4c9b91a12"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "FormsPoc/1.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter.Analytics": "2.0.0",
+          "Microsoft.AppCenter.Crashes": "2.0.0",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.2",
+          "SkiaSharp.Views.Forms": "1.68.0",
+          "Syncfusion.Xamarin.SfImageEditor": "17.1.0.50",
+          "Xam.Plugin.Media": "4.0.1.5",
+          "Xamarin.Controls.SignaturePad.Forms": "3.0.0",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.0.0.482894",
+          "Xamarin.Plugin.ImageEdit": "1.0.0"
+        },
+        "runtime": {
+          "FormsPoc.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/2.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/2.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/2.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "Xamarin.Forms": "4.0.0.482894"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/17.1.0.50": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.1.0.50",
+            "fileVersion": "17.1.0.50"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.1.0.50": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.1.0.50"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "17.1451.0.50",
+            "fileVersion": "17.1451.0.50"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfImageEditor/17.1.0.50": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.1.0.50",
+          "Xamarin.Forms": "4.0.0.482894"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfImageEditor.XForms.dll": {
+            "assemblyVersion": "17.1451.0.50",
+            "fileVersion": "17.1451.0.50"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Controls.SignaturePad.Forms/3.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.482894"
+        },
+        "runtime": {
+          "lib/netstandard1.0/SignaturePad.Forms.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.1.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/4.0.0.482894": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.139"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.139"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.139"
+          }
+        }
+      },
+      "Xamarin.Plugin.ImageEdit/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.ImageEdit.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Plugin.ImageEdit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FormsPoc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AppCenter/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UJKginAWcASz86y9KkjBmQO2LiwkbaIiTdfwy8gR/GkOeXTc/yEecEYrPCLNT3gxYSajhvR3DPNmebc4en4Vgg==",
+      "path": "microsoft.appcenter/2.0.0",
+      "hashPath": "microsoft.appcenter.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z5kCYJ7Ij+OmdCHRkCe94myVH2oUnz6uZB4DCbQ2d0BaI10JmUNHQjPvJXij84BvjSnFVHDXhp3nvNthWLhHqw==",
+      "path": "microsoft.appcenter.analytics/2.0.0",
+      "hashPath": "microsoft.appcenter.analytics.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i+6kwd4yrSpzM8iNI3q7gYrQGhociAomh31//joZCgzjs69kcBJ6xOe9Nc/8Xm+avWQ9Op58y/dYCmh0SGfAuA==",
+      "path": "microsoft.appcenter.crashes/2.0.0",
+      "hashPath": "microsoft.appcenter.crashes.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Plugin.Permissions/3.0.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+      "path": "plugin.permissions/3.0.0.12",
+      "hashPath": "plugin.permissions.3.0.0.12.nupkg.sha512"
+    },
+    "SkiaSharp/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8Nh6ws9WGVCddQb509Xl4lCIOu786Oc27t9LxPbuPZU7Olw6jVO2X6iqmHrwY+MZQXQXD4DeK5LU8vfiNwTCg==",
+      "path": "skiasharp/1.68.0",
+      "hashPath": "skiasharp.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Forms/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-As1LklMPgG+i/y/d5z2EGKOheRHrTVsGCz/2HTvhtIL6GFnXDcApKfxTSNhRNi8OyQJoLgODCpQqjm0tY58j1Q==",
+      "path": "skiasharp.views.forms/1.68.0",
+      "hashPath": "skiasharp.views.forms.1.68.0.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/17.1.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ioW/h5YoaHdSefBZvKRkB/0VWEAdyB94iaz0Jpdp4lvSHvgtSDUNMEQxXNriF1CRiW+DU1obCIsf+ieyadWtFA==",
+      "path": "syncfusion.licensing/17.1.0.50",
+      "hashPath": "syncfusion.licensing.17.1.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/17.1.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZRv+z1F0U2vyWzktkmmDGMOGUMAq6xDnQHj6ji0sCYzGWtieXK5bVme6bVSrLk5erLg6500mC2wdOdAag+3e0g==",
+      "path": "syncfusion.xamarin.core/17.1.0.50",
+      "hashPath": "syncfusion.xamarin.core.17.1.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfImageEditor/17.1.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bn8bSTA7jSPDHJrRlrBAqJHAq6XUvoYDfHne9YM6wo9LZe2QCDmjFjXUuUKIHuVGlKhRsklrNzx+bTwimhJUgA==",
+      "path": "syncfusion.xamarin.sfimageeditor/17.1.0.50",
+      "hashPath": "syncfusion.xamarin.sfimageeditor.17.1.0.50.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PxL0vcTXpS79l2KgtaJBShcPVMRK2HC5J08vG6hKTC7hk5+3RjgFrdX0N6Gd4oF8pxVxV2ia7rhYnjxRCMWZtw==",
+      "path": "xam.plugin.media/4.0.1.5",
+      "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
+    },
+    "Xamarin.Controls.SignaturePad.Forms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iStwMTmZ5VIYBJPlHjggwajRtIhoZqwgLw+Bjkl1NFpjJTNWOyMdy01+1mIFDcLz82ZYhCihyeU6epQDMd/YlA==",
+      "path": "xamarin.controls.signaturepad.forms/3.0.0",
+      "hashPath": "xamarin.controls.signaturepad.forms.3.0.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AGismQb55pszEQ/ZIv9O1U2YyaF2gHdBdAUO79+biHf1s7AL2R++DIvmf7Z+wtfhZrB9wxhXAkOUuYHgpY6oTw==",
+      "path": "xamarin.essentials/1.1.0",
+      "hashPath": "xamarin.essentials.1.1.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.0.0.482894": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tWyc8C3jYlvvrIORJxLLB3NvgmXxDDw5bcqlTronFSI5At8BYuAM8ersX7fwKElBlagsspwQ2onHvRti8ltUyw==",
+      "path": "xamarin.forms/4.0.0.482894",
+      "hashPath": "xamarin.forms.4.0.0.482894.nupkg.sha512"
+    },
+    "Xamarin.Plugin.ImageEdit/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AubJuUo8AkUKq2DVPXLdWQKKuvwpcr1Oxuc5ChQihcKp7KL4l+wQQ14c+StzeB0lu+fe6xHkmb4TOwd91w9vQQ==",
+      "path": "xamarin.plugin.imageedit/1.0.0",
+      "hashPath": "xamarin.plugin.imageedit.1.0.0.nupkg.sha512"
+    }
+  }
+}

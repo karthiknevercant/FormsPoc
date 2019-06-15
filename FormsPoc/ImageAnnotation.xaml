@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+               xmlns:imageeditor="clr-namespace:Syncfusion.SfImageEditor.XForms;assembly=Syncfusion.SfImageEditor.XForms"
+             x:Class="FormsPoc.ImageAnnotation">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="dhajj" HeightRequest="50" HorizontalOptions="FillAndExpand" />
+           <imageeditor:SfImageEditor x:Name="imageEditor" IsEnabled="false" VerticalOptions="FillAndExpand" />
+<!--              <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                    <Button Text="Take Photo"  BackgroundColor="Olive" TextColor="White" />
+                    <Button Text="Pick Photo" BackgroundColor="Teal" TextColor="White" />
+              </StackLayout>-->
+                <Grid VerticalOptions="End" HeightRequest="50" HorizontalOptions="FillAndExpand">
+                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button VerticalOptions="Fill" Text="Take Photo" Clicked="AddPhotoClicked"  BackgroundColor="Olive" TextColor="White" />
+                    <Button VerticalOptions="Fill" Grid.Column="1" Text="Pick Photo" Clicked="PickPhotoClickedAsync" BackgroundColor="Teal" TextColor="White" />
+                </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
